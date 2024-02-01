@@ -1,0 +1,14 @@
+{
+  "appid": "touristappid",
+  "compilation-args": {
+    "selected": -3
+  },
+  "appInfo": {},
+  "appkey": "",
+  "condition": {},
+  "setting": {
+    "urlCheck": true
+  },
+  "libVersion": "",
+  "projectname": "my-app"
+}

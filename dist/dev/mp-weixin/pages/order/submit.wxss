@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.container {
+  padding-bottom: 110rpx;
+}
+.container .goods {
+  padding: 0 30rpx 0 20rpx;
+  background-color: #fff;
+}
+.container .goods .item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-bottom: 1px solid #eaedef;
+}
+.container .goods .item:last-child {
+  border: 0;
+}
+.container .goods .item .left {
+  display: flex;
+  align-items: center;
+}
+.container .goods .item .left .img {
+  width: 150rpx;
+  height: 150rpx;
+}
+.container .goods .item .left .info {
+  margin-left: 20rpx;
+}
+.container .goods .item .left .info .name {
+  font-size: 30rpx;
+}
+.container .goods .item .left .info .number {
+  font-size: 26rpx;
+  color: #909399;
+  margin-top: 10rpx;
+}
+.container .goods .item .price {
+  font-size: 28rpx;
+  color: #ff557f;
+}
+.container .bot-box {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28rpx;
+  background-color: #F5F5F5;
+}
+.container .bot-box .price-box .text1 {
+  font-size: 24rpx;
+  margin-right: 10rpx;
+}
+.container .bot-box .price-box .text2 {
+  font-size: 26rpx;
+  font-weight: bold;
+  color: #ff557f;
+}
+.container .bot-box .price-box .price {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #ff557f;
+  font-family: '雅黑';
+}
+.container .bot-box .btn {
+  width: 300rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  background-color: #009000;
+  border-radius: 50rpx;
+  color: #fff;
+  font-size: 35rpx;
+  margin-left: 20rpx;
+}
+

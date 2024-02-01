@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.container .left-box, .container .right-box {
+  background-color: #fff;
+  height: calc(100vh - 95px);
+}
+.container .left-box .scroll-group, .container .left-box .scroll-goods, .container .right-box .scroll-group, .container .right-box .scroll-goods {
+  height: 100%;
+}
+.container .left-box .scroll-group {
+  font-size: 26rpx;
+}
+.container .left-box .scroll-group .uni-list-item__container {
+  padding: 0;
+  text-align: center;
+  padding: 25rpx 0;
+}
+.container .left-box .scroll-group .uni-list-item__container .uni-list-item__content {
+  padding: 0;
+}
+.container .left-box .scroll-group .active .uni-list-item__container {
+  background-color: #EDEDED !important;
+}
+.container .left-box .scroll-group .active .uni-list-item__container ._span {
+  color: #009000;
+}
+.container .right-box .scroll-goods .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #F0F0F0;
+  padding: 30rpx;
+}
+.container .right-box .scroll-goods .item-box:nth-last-child(2) {
+  border: 0;
+}
+.container .right-box .scroll-goods .item-box .l {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container .right-box .scroll-goods .item-box .l .img {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 12rpx;
+}
+.container .right-box .scroll-goods .item-box .l .info {
+  width: 250rpx;
+  height: 150rpx;
+  margin-left: 20rpx;
+}
+.container .right-box .scroll-goods .item-box .l .info .name {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-bottom: 6rpx;
+}
+.container .right-box .scroll-goods .item-box .l .info .des {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  height: 68rpx;
+  color: #B9B9B9;
+}
+.container .right-box .scroll-goods .item-box .l .info .price-box {
+  font-size: 26rpx;
+  color: #B9B9B9;
+  line-height: 45rpx;
+}
+.container .right-box .scroll-goods .item-box .l .info .price-box .price {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #ff557f;
+  font-family: '雅黑';
+}
+.container .right-box .scroll-goods .item-box .r {
+  width: 65rpx;
+  height: 65rpx;
+  border-radius: 50%;
+  border: 1px solid #EDEDED;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(240, 240, 240, 0.5);
+}
+.container .right-box .scroll-goods .item-box .r .icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+
