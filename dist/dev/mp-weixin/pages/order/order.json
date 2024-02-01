@@ -1,8 +1,0 @@
-{
-  "navigationBarTitleText": "订单中心",
-  "usingComponents": {
-    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
-    "uni-card": "/uni_modules/uni-card/components/uni-card/uni-card",
-    "uni-dateformat": "/uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat"
-  }
-}
