@@ -1,0 +1,1 @@
+<view class="_div"><router-tabbar vue-id="c31923fa-1" tab-bar-list="{{tabBarList}}" data-event-opts="{{[['^click',[['handleTabBarClick']]]]}}" bind:click="__e" bind:__l="__l"></router-tabbar></view>

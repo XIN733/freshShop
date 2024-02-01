@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/*
+ 以下变量是默认值，如不需要修改可以不用给下面的变量重新赋值
+ */
+/* 水平间距 */
+.container .top-box {
+  width: 100%;
+  height: 350rpx;
+  background-image: linear-gradient(to right, #5DD699, #57BF8B);
+  padding: 150rpx 40rpx 0;
+  position: relative;
+}
+.container .top-box::after {
+  content: '';
+  width: 100%;
+  height: 40rpx;
+  background-image: linear-gradient(to right, #5DD699, #57BF8B);
+  position: absolute;
+  bottom: -12px;
+  left: 0;
+  border-radius: 0 0 150% 150%;
+}
+.container .top-box .demo-uni-col {
+  height: 120rpx;
+}
+.container .top-box .demo-uni-col .avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border: 6rpx solid #F0F0F0;
+  border-radius: 50%;
+}
+.container .top-box .demo-uni-col .login-btn {
+  font-size: 30rpx;
+  text-align: left;
+  height: 100%;
+  line-height: 120rpx;
+  background-color: transparent;
+  color: #fff;
+}
+.container .top-box .demo-uni-col .info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 28rpx;
+  line-height: 42rpx;
+  color: #fff;
+  font-size: 24rpx;
+}
+.container .top-box .demo-uni-col .info .username {
+  font-size: 30rpx;
+}
+.container .menu-box {
+  padding: 0 35rpx;
+  margin-top: 50rpx;
+}
+
